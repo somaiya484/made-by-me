@@ -1,0 +1,253 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+.univarsal{
+  padding: 0px 100px;
+}
+.tol{
+  background-color:#242b40 ;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #fff;
+  font-size: 0.680rem;
+  padding: 0.625rem;
+  width: 100%;
+}
+.call{
+  padding:0px 10px;
+}
+.fab{
+  margin-right: 10px;
+  padding: 2px;
+  background-color: rgb(255, 255, 255);
+  color:#242b40 ;
+  border-radius: 2px;
+  font-size: 2;
+}
+/*Header */
+.header1{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 15px 0px;
+  position: relative;
+}
+.main{
+ color: #1fbf7c;
+ display: flex;
+}
+.fa-sharp{
+  color: #008a3d;
+  margin-top: 8px;
+  font-size: 22px;
+}
+.main h3 {
+  margin-left: -90px;
+  font-size: 25px;
+}
+.menu ul{
+  display: flex;
+}
+.menu ul li{
+  list-style: none;
+  padding: 0px 30px;
+  text-transform: capitalize;
+  margin-top: 8px;
+}
+.menu ul li a{
+  text-decoration: none;
+  color: gray;
+}
+.menu ul li a:hover{
+  color: #242b40;
+  transition: .3s;
+}
+button{
+  background-color:#008a3d ;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 5px;
+  border-radius: 2px;
+  margin-top: 8px;
+  margin-right:111px;
+}
+button:hover{
+  background-color: transparent;
+  border:1px solid #008a3d ;
+  transition: .4s;
+  color: black;
+}
+
+/*header*/
+.header{
+  height: 55vh;
+  width:100%;
+  background-image: url(img/Education-Pic.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  opacity: 0.89;
+  position: relative;
+}
+.header h1{
+  font-size: 35px;
+  display: inline-block;
+  margin-left: -400px;
+}
+.header p{
+  width: 45%;
+  margin-left: -365px;
+  padding: 30px 0px;
+  font-size: 15px;
+}
+.button{
+  margin-left: -734px;
+  border: 1px solid #008a3d;
+  font-size: 14px;
+}
+.title h1{
+  text-align: center;
+  padding-top: 50px ;
+  font-size: 42px;
+  text-transform: capitalize;
+}
+.title p{
+  font-size: 15px;
+  text-align: center;
+}
+  
+.services{
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 75px auto;
+  text-align: center;
+}
+.card{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  margin: 0px 20px;
+  padding: 20px 20px;
+  background-color:#1fbf7c ;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.icon1{
+  border: 1px solid white;
+  background-color: #fff;
+  color: black;
+  padding: 13px 17px;
+  border-radius: 28px;
+  margin-top: -50px;
+}
+.card h2{
+  font-size: 30px;
+  padding: 20px 0px;
+  text-transform: capitalize;
+}
+.card p{
+  font-size: 15px;
+}
+
+/*Footer*/
+#implink{
+  background-color:#1fbf7c;
+  color: #fdfdfd;
+  overflow: auto;
+
+}
+.part{
+  width: 33.33%;
+  padding:25px 50px;
+  box-sizing: border-box;
+  float: left;
+}
+.part h3{
+  padding-bottom: 20px;
+  text-underline-offset:10px ;
+  text-decoration-thickness: 2px;
+}
+#fmenu{
+  list-style-type: none;
+  padding: 0px;
+}
+#fmenu li{
+  padding-bottom: 10px;
+
+}
+#fmenu li a{
+  text-decoration: none;
+  color: #fdfdfd;
+}
+#fmenuc{
+  padding-left: 100px;
+}
+#cpr{
+  background-color:#2c3136 ;
+  text-align: center;
+  color: aliceblue;
+  padding: 10px;
+}
+/*
+.about{
+  width: 100%;
+
+}
+.about .sector{
+align-items: center;
+
+}
+.about .section25{
+  width: 25%;
+  margin: 75px auto;
+  display: flex;
+  text-align: center;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.about h2{
+  font-size: 30px;
+  text-align: center;
+}
+.about .p{
+  text-align: center;
+}
+
+.section25{
+  width: 25%;
+  float: left;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 30px 30px;
+  background-color: #1fbf7c;
+} 
+.section25 h3{
+  font-size: 25px;
+  padding: 20px 0px;
+}
+.section25 p{
+  font-size: 15px;
+  word-spacing: 2px;
+}
+.fav {
+  border: 1px solid red;
+  padding: 15px;
+  border-radius: 25px;
+}
+*/
